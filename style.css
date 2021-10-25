@@ -72,9 +72,14 @@ img {
   clear: both;
 }
 /* soluzione */
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 420px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .row{
-    width: 410px;
+    width: 100%;
   }
   #lezioni .row img,
   #steps .row img,
@@ -99,12 +104,12 @@ img {
   #steps .row>.right {
   display: block;
   width: 100%;
-}
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
   width: 100%;
   display: block;
   text-align: center;
-}
+  }
 }
